@@ -1,0 +1,20 @@
+{
+    "name": "task-manager",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "src/node.js",
+        "dev": "nodemon src/node.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongodb": "^3.6.3",
+        "mongoose": "^5.11.9",
+        "nodemon": "^2.0.6",
+        "validate": "^5.1.0"
+    }
+}
